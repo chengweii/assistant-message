@@ -31,4 +31,8 @@ public class Message {
 		this.content = content;
 	}
 
+	@Override
+	public String toString() {
+		return "Message [messageQuene=" + messageQuene + ", sendTime=" + sendTime + ", content=" + content + "]";
+	}
 }

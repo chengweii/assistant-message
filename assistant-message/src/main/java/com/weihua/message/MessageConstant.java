@@ -1,6 +1,7 @@
 package com.weihua.message;
 
 public class MessageConstant {
-	public static final String MAIL_CONTENT_START = "##MAIL_START##";
-	public static final String MAIL_CONTENT_END = "##MAIL_END##";
+	public static final String MESSAGE_CONTENT_START = "##MESSAGE_CONTENT_START##";
+	public static final String MESSAGE_CONTENT_END = "##MESSAGE_CONTENT_END##";
+	public static String MESSAGE_CONFIG_PATH = "assets/mq";
 }

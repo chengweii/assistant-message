@@ -1,5 +1,5 @@
 package com.weihua.message;
 
 public interface MessageConsumer {
-	void doHandle(String message);
+	void doHandle(Message message);
 }
