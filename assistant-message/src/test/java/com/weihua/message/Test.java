@@ -6,8 +6,8 @@ import com.weihua.common.util.EmailUtil;
 
 public class Test {
 	public static void main(String[] args) {
-		EmailUtil.initDefaultConfig("333@163.com", "333");
-		MessageConstant.MESSAGE_CONFIG_PATH = "assets/mqtest";
+		EmailUtil.init("333@163.com", "333");
+		MessageConstant.MESSAGE_CONFIG_PATH = "mqtest";
 
 		Thread t1 = new Thread(new Runnable() {
 			@Override
